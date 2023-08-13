@@ -6,15 +6,12 @@
     body {
       background-color: lightblue;
     }
-    .bg_cloud {
-        position: absolute;
-        height: 193px;
-        left: -222px;
-        top: -59px;
-        z-index: -1;
-    }
     .profile img {
-        margin-top: 10px;
+        box-shadow: 6px 2px 9px -4px rgba(0,0,0,0.75);
+    }
+
+    .bg_cloud {
+        display: none;
     }
 }
 
