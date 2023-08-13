@@ -4,7 +4,7 @@
 /* ! Media Query */
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+      background-color: white;
     }
     .profile img {
         box-shadow: 6px 2px 9px -4px rgba(0,0,0,0.75);
