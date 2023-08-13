@@ -5,8 +5,25 @@
     padding: 0;
     margin: 0;
 }
+/* ! Background */
+.bg_cloud {
+    position: absolute;
+    height: 235px;
+    left: -38px;
+    bottom: -66px;
+    z-index: -1;
+}
 
-/* main content */
+.bg_cloud1 {
+    position: absolute;
+    height: 219px;
+    right: -111px;
+    bottom: -51px;
+    z-index: -1;
+}
+
+/* ! main content */
+
 /* #main_conten {
 
 } */
@@ -60,7 +77,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: white;
 }
 .profile img {
     height: 250px;
@@ -82,18 +98,21 @@
 }
 /* Education */
 .edu {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
     justify-content: center;
     align-items: center;
 }
-.edu h2 {
-    margin-right: 10px;
-    padding-right: 10px;
-    border-right: 2px solid black;
-}
+/* .edu h2 {
+} */
 .edu ul {
     list-style: none;
+}
+
+/* ! work */
+.work {
+    display: flex;
 }
