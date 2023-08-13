@@ -9,10 +9,16 @@
     .bg_cloud1 {
         display: none;
     }
+    .bg_cloud2 {
+        display: block;
+    }
     .bg_cloud {
         height: 255px;
         left: -38px;
         top: -129px;
+    }
+    .profile img {
+        margin-top: 10px;
     }
 }
 
@@ -36,6 +42,9 @@
     right: -111px;
     bottom: -51px;
     z-index: -1;
+}
+.bg_cloud2 {
+    display: none;
 }
 
 /* ! main content */
@@ -71,7 +80,7 @@
 .conten a {
     display: flex;
     text-decoration: none;
-    color: black;
+    color: #333333;
 }
 
 .conten a span {
