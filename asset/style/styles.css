@@ -9,13 +9,14 @@
     .profile img {
         box-shadow: 6px 2px 9px -4px rgba(0,0,0,0.75);
     }
-
     .bg_cloud {
-        display: none;
+        top: -88px;
     }
 }
 
 * {
+    /* background-color: rgb(26, 25, 25);
+    color: white; */
     padding: 0;
     margin: 0;
 }
@@ -25,19 +26,8 @@
     position: absolute;
     height: 235px;
     left: -38px;
-    bottom: -66px;
+    bottom: -88px;
     z-index: -1;
-}
-
-.bg_cloud1 {
-    position: absolute;
-    height: 219px;
-    right: 25px;
-    top: -123px;
-    z-index: -1;
-}
-.bg_cloud2 {
-    display: none;
 }
 
 /* ! main content */
