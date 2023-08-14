@@ -10,10 +10,6 @@
     .profile img {
         box-shadow: 6px 2px 9px -4px rgba(0, 0, 0, 0.75);
     }
-
-    .bg_cloud {
-        top: -88px;
-    }
 }
 
 * {
@@ -23,15 +19,6 @@
     margin: 0;
 }
 
-/* ! Background */
-.bg_cloud {
-    position: absolute;
-    height: 235px;
-    left: -158px;
-    bottom: -88px;
-    z-index: -1;
-}
-
 /* ! main content */
 
 /* #main_conten {
@@ -39,7 +26,9 @@
 } */
 .main_profile {
     height: 100vh;
-    margin-bottom: 2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Images/Background/minimalist.jpg);
 }
 
 /* Navigasi */
@@ -116,22 +105,29 @@ p {
 
 /* Education */
 .edu {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100px;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    height: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../Images/Background/joanna-kosinska-unsplash.jpg);
 }
-
-/* .edu h2 {
-} */
-.edu ul {
-    list-style: none;
+.school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
 }
-
-/* ! work */
+.school ul {
+    list-style-type: none;
+}
+/* Work */
 .work {
-    display: none;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    gap: 5px 26px;
+    margin: 0px 35px;
+    justify-content: center;
 }
