@@ -3,18 +3,16 @@
 
 /* ! Media Query */
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: white;
-    }
-
-    .profile img {
+.profile img {
         box-shadow: 6px 2px 9px -4px rgba(0, 0, 0, 0.75);
     }
+
+.work {
+    background-color: aqua;
+}
 }
 
 * {
-    /* background-color: rgb(26, 25, 25);
-    color: white; */
     padding: 0;
     margin: 0;
 }
