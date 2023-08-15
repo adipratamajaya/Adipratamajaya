@@ -6,16 +6,18 @@
     .col_ex {
         padding: 7px 5px;
         background-color: #0000006b;
-        border-radius: 59px 0px;
         grid-template-columns: auto auto;
     }
     .job_{
-        border-right: 1px solid black;
+        border-right: 1px solid rgb(240, 240, 240);
         text-align: right;
         display: flex;
         margin-right: 15px;
-        padding-right: 7px;
+        padding-right: 10px;
         flex-direction: column;
+    }
+    .des_{
+        margin-left: 5px;
     }
 
     /* ! Coursera */
@@ -143,14 +145,21 @@ p {
     background-image: url(../Images/Background/work.jpg);
     display: flex;
     flex-direction: column;
-    color: white;
+    color: rgb(241, 241, 241);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+.work_ex h2 {
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .col_ex {
+    background-color: #747474a8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: grid;
     grid-template-rows: auto;
+    padding: 26px;
     gap: 15px 7px;
     margin: 12px 23px;
 }
@@ -159,13 +168,34 @@ p {
     justify-content: center;
     align-items: center;
     height: 45px;
+    border-bottom: 5px solid white;
 }
 
 /* ! Coursera */
 .coursera {
+    background-image: url(../Images/Background/cours.jpg);
+    align-items: center;
+    display: flex;
+    padding: 25px 15px;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .col_coursera {
+    margin: 0px 20px;
     display: grid;
+    gap: 10px;
+}
+.job_ h2 {
+    font-size: 20px;
+}
+.card {
+    color: #f1f1f1;
+    background-color: rgb(0 0 0 / 77%);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* ! End coursera */
