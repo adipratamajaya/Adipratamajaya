@@ -88,7 +88,7 @@
     height: 16px;
 }
 
-/* profile */
+/* ! profile */
 .profile {
     margin-top: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -119,7 +119,7 @@ p {
     font-style: italic;
 }
 
-/* Education */
+/* ! Education */
 .edu {
     display: flex;
     justify-content: center;
@@ -149,7 +149,7 @@ p {
     background-repeat: no-repeat;
 }
 .work_ex h2 {
-    font-weight: 200;
+font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .col_ex {
@@ -167,6 +167,9 @@ p {
     align-items: center;
     height: 45px;
     border-bottom: 5px solid white;
+}
+.des_ ul li {
+    font-weight: 100;
 }
 
 /* ! Coursera */
@@ -197,3 +200,12 @@ p {
 }
 
 /* ! End coursera */
+
+/* ! footer */
+footer {
+    padding: 10px 10px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+/* ! end footer */
