@@ -47,7 +47,7 @@
     background-image: url(../Images/Background/minimalist.jpg);
 }
 
-/* Navigasi */
+/* ! Navigasi */
 .navigasi-main {
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -132,7 +132,6 @@ p {
 .school {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-bottom: 10px;
 }
 .school ul {
