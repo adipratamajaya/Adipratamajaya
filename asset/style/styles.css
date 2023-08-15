@@ -2,16 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
 
 /* ! Media Query */
-@media only screen and (max-width: 600px) {
-.profile img {
-        box-shadow: 6px 2px 9px -4px rgba(0, 0, 0, 0.75);
+@media screen and (min-width: 600px) {
+    .col_ex {
+        padding: 7px 5px;
+        background-color: #0000006b;
+        border-radius: 59px 0px;
+        grid-template-columns: auto auto;
+    }
+    .job_{
+        border-right: 1px solid black;
+        text-align: right;
+        display: flex;
+        margin-right: 15px;
+        padding-right: 7px;
+        flex-direction: column;
     }
 
-.work {
-    background-color: aqua;
+    /* ! Coursera */
+    .coursera {
+        flex-direction: column;
+    }
+    .col_coursera {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+    }
+    .card {
+        border: 1px solid black;
+    }
 }
-}
-
 * {
     padding: 0;
     margin: 0;
@@ -120,12 +138,34 @@ p {
 .school ul {
     list-style-type: none;
 }
-/* Work */
-.work {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto;
-    gap: 5px 26px;
-    margin: 0px 35px;
-    justify-content: center;
+/* ! Work */
+.work_ex {
+    background-image: url(../Images/Background/work.jpg);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+.col_ex {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 15px 7px;
+    margin: 12px 23px;
+}
+.title_ex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+
+/* ! Coursera */
+.coursera {
+}
+.col_coursera {
+    display: grid;
+}
+
+/* ! End coursera */
