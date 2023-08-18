@@ -14,22 +14,6 @@
         display: none;
     }
     /* ! job and des */
-    .col_ex {
-        padding: 7px 5px;
-        background-color: #0000006b;
-        grid-template-columns: auto auto;
-    }
-    .job_{
-        border-right: 1px solid rgb(240, 240, 240);
-        text-align: right;
-        display: flex;
-        margin-right: 15px;
-        padding-right: 10px;
-        flex-direction: column;
-    }
-    .des_{
-        margin-left: 5px;
-    }
 
     /* ! Coursera */
     .coursera {
@@ -180,13 +164,10 @@ font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .col_ex {
+    display: grid;
+    grid-template-columns: auto auto;
     background-color: #747474a8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: grid;
-    grid-template-rows: auto;
-    padding: 26px;
-    gap: 15px 7px;
-    margin: 12px 23px;
 }
 .title_ex {
     display: flex;
@@ -197,6 +178,10 @@ font-weight: 500;
 }
 .des_ ul li {
     font-weight: 100;
+}
+.job_ {
+    border-right: 1px solid rgb(240, 240, 240);
+    margin-right: 20px;
 }
 
 /* ! Coursera */
