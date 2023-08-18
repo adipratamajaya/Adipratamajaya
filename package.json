@@ -1,0 +1,16 @@
+{
+  "name": "adipratamajaya.github.io",
+  "version": "1.0.0",
+  "description": "<!--\r **adipratamajaya/Adipratamajaya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Adi pratama jaya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
