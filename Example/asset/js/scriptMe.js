@@ -5,5 +5,3 @@
       $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
     }); }, 3000)
 })();
-
-alert("Website dalam perbaikan ^_^")
