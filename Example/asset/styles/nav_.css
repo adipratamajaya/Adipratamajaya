@@ -1,9 +1,16 @@
 .navigation {
-    background-color: rgba(0, 0, 0, 0);
     padding: 1.5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-color: #9E7676;
+  box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.32);
+-webkit-box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.32);
+-moz-box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.32);
 }
 
 /*  */
@@ -23,7 +30,7 @@
 .navigation ul li a {
     font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-    color: black;
+    color: #FFF8EA;
 }
 .navigation ul li a:hover {
     background-color: red;
