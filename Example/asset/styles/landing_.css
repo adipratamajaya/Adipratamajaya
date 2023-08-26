@@ -1,15 +1,17 @@
 .landing_ {
-    height: 89vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    background: no-repeat;
+    background-size: 400px;
+    background-position: left -16px;
+    align-items: center;
     gap: 10px;
-    padding: 10px;
-    margin: 0px 10%;
+    padding: 10px 60px;
 }
 #kata_ganti{
-    color: blue;
+    color: #594545;
     font-weight: bolder;
 }
 .plus_ {
@@ -17,12 +19,13 @@
 }
 .landing_ h1 {
     font-weight: 400;
-    font-family: Open Sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
+    font-family: Phudu;
+    font-size: 3rem;
 }
 
 .landing_ p {
-    font-family: Open Sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+font-family: Phudu;
     font-weight: 100;
 }
 
