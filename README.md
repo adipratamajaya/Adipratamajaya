@@ -1,8 +1,9 @@
-### My Website
+adipratamajaya.github.io
 
-# Adi pratama jaya
+# portofolio website "Adi pratama jaya"
 
-# Sedang perbaikan
+Thank you for visiting!
+![alt text](/asset/Images/Adipratamajaya.github.io.jpg)
 
 <!--
 **adipratamajaya/Adipratamajaya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
