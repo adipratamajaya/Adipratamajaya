@@ -1,0 +1,9 @@
+footer {
+    font-family: Phudu;
+    z-index: 1;
+    position: relative;
+    background-color: hsl(198,90%,55%);
+    color: hsl(0,0%,100%);
+    padding: 20px;
+    text-align: center;
+}
