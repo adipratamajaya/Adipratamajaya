@@ -1,10 +1,11 @@
 /* navigasi */
 header {
+    z-index: 10;
     border-radius: 50px;
     margin: 0px 5%;
     position: sticky;
     padding: 25px;
-    top: 1px;
+    top: -17px;
     background-color: #815B5B;
     box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
@@ -74,7 +75,13 @@ header {
 }
 
 /* media Query */
-@media (max-width:880px) {
+@media (max-width:890px) {
+    header {
+        border-radius: 0;
+    }
+    .navigation {
+        margin: 0;
+    }
     #nav_menu {
         display: none;
     }    

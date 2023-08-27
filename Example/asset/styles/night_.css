@@ -183,7 +183,7 @@ input {
 
 
 /* media Query */
-@media (max-width:895px) {
+@media (max-width:888px) {
     .modeNight {
         position: fixed;
         top: 85vh;

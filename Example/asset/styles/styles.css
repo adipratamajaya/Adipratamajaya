@@ -3,6 +3,7 @@
 @import url(me_.css);
 @import url(night_.css);
 @import url(hamburger_.css);
+@import url(footer.css);
 
 * {
     padding: 0;
@@ -10,9 +11,14 @@
     box-sizing: border-box;
 }
 main {
-    z-index: -1;
+    z-index: 0;
     position: relative;
     top: -99px;
+    margin-bottom: -99px;
+}
+
+.des_.night {
+    background-color:hsl(198,90%,55%); ;
 }
 main.night {
     background-color: hsl(198,90%,15%);  
