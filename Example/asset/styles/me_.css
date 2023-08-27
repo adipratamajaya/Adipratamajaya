@@ -1,15 +1,14 @@
 .me_ {
-
+    padding: 0px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 .me_ .des_ {
-    border-radius: 25px;
     background-color: #594545;
     width: 70%;
-    margin: 10%;
+    margin: 1%;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -41,9 +40,19 @@
     margin-bottom: 25px;
     width: 100%;
 }
+/* iklan */
+.ads_ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 /* media Query */
 @media (max-width:880px) {
+    .me_ {
+        flex-direction: column;
+    }
     .me_ .des_ {
         width: 90%;
     }

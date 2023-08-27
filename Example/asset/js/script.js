@@ -1,3 +1,4 @@
+alert("website under display improvement 😝")
 const mamanRacing = document.querySelector("#nengDonat");
 const powerRaginang = document.querySelector(".modeNight");
 
