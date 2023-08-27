@@ -126,7 +126,7 @@ input {
 }  
 /* Checked */  
 .theme__toggle:checked {  
-    background-color: hsl(198,90%,15%);  
+    background-color: hsl(198, 96%, 10%);  
 }  
 .theme__toggle:checked:before,  
 .theme__toggle:checked ~ .theme__icon {  
