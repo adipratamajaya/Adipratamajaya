@@ -1,7 +1,7 @@
 {
-  "name": "adipratamajaya.github.io",
+  "name": "example",
   "version": "1.0.0",
-  "description": "<!--\r **adipratamajaya/Adipratamajaya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,6 +11,8 @@
   "author": "Adi pratama jaya",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "gsap": "^3.12.2"
   }
 }

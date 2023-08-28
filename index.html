@@ -3,181 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="asset/style/styles.css">
     <title>Adi pratama jaya || My Resume</title>
+    <link rel="stylesheet" href="asset/styles/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ! Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
-    <!-- ! profile about me -->
-    <br>
-    <div class="main_profile">
-        <!-- ! Navigasi -->
-        <nav class="navigasi_contac">
-                <div class="left_">
-                    <img src="asset/Images/Social/email.png" alt="email">
-                    <a href="mailto:apratama272@gmail.com">apratama272@gmail.com</a>
-                </div>
-                <div class="right">
-                    <div class="linkedln_">
-                        <img src="asset/Images/Social/linkedin.png" alt="linkedln">
-                     </div>
-                    <a href="#">Linkedln</a>
-                    <div class="github">
-                        <img src="asset/Images/Social/github.png" alt="github">
-                     </div>
-                     <a href="#">GitHub</a>
+    <header>
+        <nav class="navigation">
+            <div class="brand">
+                <p class="animate__animated animate__fadeIn brand_">Adi pratama jaya</p>
             </div>
-        </nav>
-        <nav id="nav-icon3">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </nav>
-        <nav class="nav_cat">
-                <a href="#"><span>About Me</span></a>
-                <a href="#"><span>Project</span></a>
-                <a href="#"><span>Freelance</span></a>
-        </nav>
-    </nav>
-        <!-- ! Akhir Navigasi -->
-        <div class="profile">
-            <img src="asset/Images/adi.jpg" width="180" alt="profile photo">
-            <div class="summary">
-                <h2>< Summary ></h2>
-                <h2>Website sedang dalam perbaikan</h2>
-                <br>
-                <p> I am an Automotive <b>Vocational High School graduate in 2017</b>, Have experience as a
-                    Production Operator for <b>4 years in automotive and food manufacturing.</b> Having skills in
-                    the <b>IT</b> field such as <b>diagnosing hardware and software</b> damage on personal computers (PC)
-                    and laptops, and having basic <b>web development</b> HTML, CSS, and Javascript</p>
-            </div>
-        </div>
-    </div>
-    <!-- ! end profile -->
-    <script type="text/javascript">
-        atOptions = {
-            'key' : '1c50532e3013b7e8eda3a696356ea37f',
-            'format' : 'iframe',
-            'height' : 250,
-            'width' : 300,
-            'params' : {}
-        };
-        document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitablecreativeformat.com/1c50532e3013b7e8eda3a696356ea37f/invoke.js"></scr' + 'ipt>');
-    </script>
-    <!-- ! education  -->
-    <div class="edu">
-        <div class="school">
-            <h2>Education</h2>
-            <ul>
-                <li>INSTITUT TEKNOLOGI BANDUNG<br><b>Teknik Inormatika</b><br> 
+
+            <ul id="nav_menu" class="animate__animated animate__fadeIn aktif_menu">
+                <li class="nav_item">
+                    <a href="#">About Me</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#">Project</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#">Contac Us</a>
                 </li>
             </ul>
-        </div>
-    </div>
-    <!-- ! end edu -->
+            
+            <!-- light mode -->
+            <div class="modeNight">
+                <label for="theme" class="theme animate__animated animate__fadeIn">  
+                    <span class="theme__toggle-wrap">  
+                         <input id="theme" class="theme__toggle" type="checkbox" role="switch" name="theme" value="dark">  
+                         <span class="theme__fill"></span>  
+                         <span class="theme__icon">  
+                              <span class="theme__icon-part"></span>  
+                              <span class="theme__icon-part"></span>  
+                              <span class="theme__icon-part"></span>  
+                              <span class="theme__icon-part"></span>  
+                              <span class="theme__icon-part"></span>  
+                              <span class="theme__icon-part"></span>  
+                              <span class="theme__icon-part"></span>  
+                              <span class="theme__icon-part"></span>  
+                              <span class="theme__icon-part"></span>  
+                         </span>  
+                    </span> 
+               </label>
+            </div>
+            <!--end  -->
 
-    <!-- ! Work ex -->
-    <div class="work_ex">
-        <div class="title_ex">
-            <h2>Work Experience</h2>
-         </div>
-        <div class="col_ex">
-                <div class="job_">
-                    <h2>PT. POSCO IJPC <br>( Jr PRODUCTION OPERATOR )</h2>
-                    <p><i>November 2018 - November 2020 </i></p>
+            <!-- donat :V -->
+            <div id="nengDonat">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <!-- ending -->
+
+    </header>
+    <main>
+        <!-- ! frofile -->
+        <div class="landing_ animate__animated animate__fadeInDown">
+            <h1>Still <span id="kata_ganti">learning</span> to code <span class="plus_ animate__animated animate__flash animate__infinite animate__delay-1s">+</span>_^</h1>
+            <p>I am <strong><em>Adi Pratama Jaya</em></strong>, part-time worker <strong><em>Data entery</em></strong> ( Microsoft word, and excel ) and, <strong><em>Full stack developer</em></strong>.</p>
+          </div>
+          <!-- ! end -->
+
+          <!-- ! profile -->
+          <section class="me_  " data-aos="fade-up">
+            <article class="des_">
+                <div class="summary_ fade-up">
+                    <h1>About Me</h1>
+                    <div id="main_images" class="images_">
+                        <img src="asset/images/profile/AdiProfile.jpg" alt="Adi pratama jaya images">
+                        <div class="social_" data-aos="fade-down">
+                            <a href="https://github.com/adipratamajaya">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            </a>
+                            <a href="https://www.instagram.com/apratama_x_x/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/></svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/adipratamajaya/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg>
+                            </a>
+                            <a href="https://www.youtube.com/@Adipratamajaya">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <p> I am an Automotive <b>Vocational High School graduate in 2017</b>, Have experience as a Production Operator for <b>4 years in automotive and food manufacturing.</b> Having skills in
+                    the <b>IT</b> field such as <b>diagnosing hardware and software</b> damage on personal computers (PC) and laptops, and having basic <b>web development</b> HTML, CSS, and Javascript</p>
                 </div>
-                <div class="des_">
-                    <ul>
-                        <li>Prepare the coil according to the PO that has been given</li>
-                        <li>Inserting the coil into the uncoiler and running the machine (Mini rotary share)</li>
-                        <li>Checking the length, width, and thickness of the process sheet with a caliper, tape measure
-                            and micrometer.</li>
-                        <li>Packing the results of the process using plastic rope strapping if the sheet results of the
-                            process is large or exceeds the weight
-                            500kg using strapping using an iron rope</li>
-                        <li>One day target in the process of reaching 10 – 12 tons of coil.</li> <br>
-                    </ul>
+                <div class="edu_">
+                    <h2>SMK Negeri 1 Plered Purwakarta</h2>
+                    <p>Teknik Sepeda Motor</p>
+                    <p>2014 - 2017</p>
                 </div>
-                <div class="job_">
-                    <h2>PT. SANTOS JAYA ABADI II (PRODUCT HELPER)</h2>
-                    <p><i>November 2021 - November 2022</i></p>
+            </article>
+            <article class="side_conten" >
+                <h2 class="animate__animated animate__slideInDown animate__infinite animate__delay-2s">advertisement</h2>
+                <br>
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : '1c50532e3013b7e8eda3a696356ea37f',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitablecreativeformat.com/1c50532e3013b7e8eda3a696356ea37f/invoke.js"></scr' + 'ipt>');
+                </script>
+                <br>
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : '1c50532e3013b7e8eda3a696356ea37f',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitablecreativeformat.com/1c50532e3013b7e8eda3a696356ea37f/invoke.js"></scr' + 'ipt>');
+                </script>
+                <br>
+                <script type='text/javascript' src='//pl20417437.highcpmrevenuegate.com/b1/b3/ef/b1b3eff53b13efc3786c2529c7b677ef.js'></script>
+                <br>
+                <script type='text/javascript' src='//pl20417437.highcpmrevenuegate.com/b1/b3/ef/b1b3eff53b13efc3786c2529c7b677ef.js'></script>
+            </article>
+          </section>
+          <!-- ! end profile -->
+
+          <!-- ! Costumer -->
+          <article>
+            <div class="clinet" data-aos="fade-up">
+                <div class="cotumer_value">
+                    <p>11</p>
+                    <h3>customer</h3>
                 </div>
-                <div class="des_">
-                    <ul>
-                        <li>Running packing coffee machine according to company SOP</li>
-                        <li>One machine can produce 20,000 - 25,000 pcs depending on the speed of the machine.</li>
-                        <li>Helping the production area</li>
-                    </ul>
+                <div class="services">
+                    <div class="web_">
+                        <p>6</p>
+                        <h3>Website</h3>
+                    </div>
+                    <div class="data_entry">
+                        <p>5</p>
+                        <h3>Data Entry</h3>
+                    </div>
                 </div>
-                <div class="job_">
-                    <h2>PT. SUKANDA JAYA – DAIMON COLD STORAGE (PRODUCITION WORKER)</h2>
-                    <p><i>january 2023 - july 2023</i></p>
                 </div>
-                <div class="des_">
-                    <ul>
-                        <li>Prepare flour according to PO from scaling</li>
-                        <li>Running a flour sifting machine</li>
-                        <li>In one shift, 4,550 – 5,120 tons of flour can be sifted.</li>
-                        <li>Help the mixing area</li>
-                        <li>Prepare the spices that are listed on the E ticket which is given scaling</li>
-                        <li>Running the kronos pro machine for mxing.</li><br>
-                    </ul>
+          </article>
+          <!-- ! end -->
+
+          <!-- ! Project -->
+          <article>
+            <div class="project" data-aos="fade-up">
+                <div class="p-1 card">
+                    <p>gambar</p>
+                    <div class="btn_detail">
+                        <p>detail</p>
+                        <button>Review</button>
+                    </div>
                 </div>
-                <div class="job_">
-                    <h2>PT TEMPO SCAN PACIFIC TBK (OPERATOR WEIGHING)</h2>
-                    <p><i>july 2023 - present</i></p>
+                <div class="p-2 card">
+                    <p>gambar</p>
+                    <p>detail</p>
                 </div>
-                <div class="des_">
-                    <ul>
-                        <li>Prepare the material to be weighed according to the formula.</li>
-                        <li>Using Velocity sap on the tablet to see how much material is needed and do label printing.
-                        </li>
-                        <li>Checking the completeness of 100% material that will be batched.</li>
-                        <li>Comply with OPRP (Operational Pre Request program).</li>
-                        <li>Comply with and Execute GMP (GOOD MANUFACTURING PRACTICE)</li>
-                    </ul>
+                <div class="p-3 card">
+                    <p>gambar</p>
+                    <p>detail</p>
                 </div>
             </div>
-    </div>
-    <!-- ! akhir Work ex -->
+          </article>
+          <!-- ! end -->
+          <article>
+            <div class="experiecs">
 
-    <!-- ! Online coursus -->
-    <div class="coursera">
-        <div class="col_coursera">
-            <div class="card">
-                <h2>The Complete 2023 Web Development Bootcamp</h2>
-                <p><i>Udemy, 14/09/2022</i>
-                <br>
-                    <p>
-                        Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, MongoDB,
-                        Web3 and DApps.
-                        <br>
-                        <a href="https://www.udemy.com/certificate/UC-9d2e81a2-7919-458e-a6ce-2504ea2dcb1f/">Certification links
-                            >> </a>
-                        </p>
             </div>
-            <div class="card">
-                <h2>Google IT Support</h2>
-                <p><i>Coursera, 28/05/2023</i> 
-                <br>
-                Technical Support Fundamentals, IT Security: Defense against the digital dark arts System Administration
-                and IT Infrastructure Services The Bits and Bytes of Computer Networking Operating Systems and You:
-                Becoming a Power User.</p>
-              <ul>
-                <a href="https://coursera.org/share/859131354b6c59e3a8c2b4571e2377fe">Certification links >> </a>
-              </ul>
-             </div>
-         </div>
-     </div>
-
-    <!--  ! end coursera -->
-
-    <!-- ! footer -->
+          </article>
+    </main>
     <footer>
-        <p>&copy; Adi pratama jaya</p>
+        <p>&copy; <strong>Adi pratama jaya</strong> || <em>website under maintenance :)</em></p>
     </footer>
-    <!-- ! end footer -->
 </body>
-<script type='text/javascript' src='//pl20417437.highcpmrevenuegate.com/b1/b3/ef/b1b3eff53b13efc3786c2529c7b677ef.js'></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="asset/js/script.js"></script>
+<script src="asset/js/timecode.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </html>
