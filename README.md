@@ -3,7 +3,7 @@ adipratamajaya.github.io
 # portofolio website "Adi pratama jaya"
 
 Thank you for visiting!
-![alt text](/asset/Images/after.png)
+![alt text](asset/images/after.png)
 
 <!--
 **adipratamajaya/Adipratamajaya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
