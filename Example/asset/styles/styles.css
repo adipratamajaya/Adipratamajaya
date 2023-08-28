@@ -4,6 +4,8 @@
 @import url(night_.css);
 @import url(hamburger_.css);
 @import url(footer.css);
+@import url(clinet.css);
+@import url(project.css);
 
 * {
     padding: 0;
@@ -29,4 +31,14 @@ main.night {
 }
 header.night {
     background-color: hsl(198,90%,55%);
+}
+footer.night {
+    background-color: hsl(198,90%,55%);
+}
+
+.plus_.night{
+    color: hsl(198,90%,55%);
+}
+.clinet.night {
+    background-color: hsl(198, 75%, 29%);  
 }

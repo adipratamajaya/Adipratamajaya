@@ -8,7 +8,7 @@
 }
 .me_ .des_ {
     width: 80%;
-    background-color: #594545;
+    background-color: #65451F;
     display: flex;
     margin-right: 10px;
     flex-direction: column;
@@ -80,7 +80,7 @@
     align-items: center;
 }
 .side_conten h2 {
-    border-bottom: 2px solid #594545;
+    border-bottom: 2px solid #65451F;
     font-family: Phudu;
 }
 /* ending */
