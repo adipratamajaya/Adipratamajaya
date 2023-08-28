@@ -1,0 +1,21 @@
+.project {
+   margin-top: 15px;
+   margin-bottom: -20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.card {
+    border: 1px solid red;
+    width: 250px;
+    height: 250px;
+}
+@media (max-width:890px) {
+    .project {
+        display: flex;
+        flex-direction: column;
+    }
+}
