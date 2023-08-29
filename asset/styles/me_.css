@@ -84,18 +84,3 @@
     font-family: Phudu;
 }
 /* ending */
-
-/* media Query */
-@media (max-width:895px) {
-    .me_ {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        padding: 0px 46px;
-    }
-    .me_ .des_ {
-        width: 100%;
-    }
-}
-
-/* Ending */

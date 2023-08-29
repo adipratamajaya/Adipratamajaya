@@ -180,15 +180,3 @@ input {
          box-shadow: 0 0 0 0.125em var(--primary);  
     }  
 }  
-
-
-/* media Query */
-@media (max-width:888px) {
-    .modeNight {
-        position: fixed;
-        top: 85vh;
-        right: -10px;
-    }
-}
-
-/* Ending */

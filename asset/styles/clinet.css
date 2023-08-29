@@ -41,19 +41,3 @@
 .services div h3 {
     font-size: 0.9rem;
 }
-
-@media (max-width:890px) {
-    .clinet {
-        flex-direction: column;
-    }
-    .cotumer_value {
-        border-right: 0px solid white;
-        border-bottom: 2px solid white;
-        padding-right: 0px;
-        padding-bottom: 10px;
-    }
-    .services .web_ , .data_entry {
-        border-right: 0px solid white;
-        padding-right: 0px;
-    }
-}
