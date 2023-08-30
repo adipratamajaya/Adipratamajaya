@@ -1,0 +1,43 @@
+.clinet {
+    font-family: Phudu;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #765827;
+    padding: 28px 15px;
+    color: white;
+    gap: 35px;
+}
+.clinet div h3 {
+    font-size: 0.9rem;
+}
+.clinet div p {
+    font-size: 3.0rem;
+    font-weight: bold;
+}
+.cotumer_value {
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    color: hsl(0,0%,100%);
+    border-right: 2px solid white;
+    padding-right: 20px;
+}
+.services {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 1.5rem;
+}
+.services .web_ , .data_entry {
+    border-right: 2px solid white;
+    padding-right: 20px;
+}
+.services div h3 {
+    font-size: 0.9rem;
+}
