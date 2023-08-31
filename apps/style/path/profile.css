@@ -1,0 +1,57 @@
+.profile {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 100%;
+}
+
+.profile .text_ {
+    width: 65%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.profile .imageProfile___ {
+    width: 35%;
+}
+.profile .imageProfile___ img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+/* media social */
+.social_profile {
+    text-align: end;
+    position: absolute;
+    bottom: 1px;
+    right: 22px;
+}
+.social_profile p {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+    font-size: 0.7rem;
+    font-family: Phudu;
+    color: #ebebeb;
+    margin-bottom: -12px;
+}
+.social_profile a {
+    text-decoration: none;
+}
+.social_profile a svg {
+    width: 20px;
+    height: 50px;
+    fill: hsl(48,90%,55%); 
+    margin-left: 0px;
+}
+/* text */
+.text_ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    font-size: 2rem;
+}
+
+
+
+
+
+
