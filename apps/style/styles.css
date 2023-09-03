@@ -1,22 +1,5 @@
-@import url(path/night_.css);
-@import url(path/profile.css);
-@import url(path/nav_.css);
-@import url(path/main.css);
-@import url(path/hamburger_.css);
-@import url(path/footer.css);
-@import url(mediaQuery/mediaQery.css);
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-
-/* night mode */
-body.night {
-    background-color: hsl(198,90%,15%);  
-}
-header.night {
-    background-color: hsl(198,90%,55%);
 }
