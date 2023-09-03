@@ -36,6 +36,9 @@
     .navigasi_ {
         display: none;
     }
+    .navigasi_ a {
+        font-size: 1.3rem;
+    }
     /* menu ios jeung android */
     .navigasi_.menu {
         z-index: 1;

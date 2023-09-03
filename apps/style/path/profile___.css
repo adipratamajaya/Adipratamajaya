@@ -31,14 +31,14 @@
 /* font */
 .text__ p {
     font-family: Roboto;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font: 300;
 }
 .text__ h1 {
     color: rgb(16, 160, 165);
     font-family: Roboto;
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: bold;
 }
 .text__ h2 {
     font-family: Roboto;
