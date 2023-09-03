@@ -11,8 +11,7 @@ burgerking.addEventListener("click", () => {
 
 powerRaginang.addEventListener("click", ()=> {
 const bodyNight = document.querySelector("body");
-  const navNya = document.querySelector("header");
-
+const navNya = document.querySelector("header");
 
   bodyNight.classList.toggle('night');
   navNya.classList.toggle('night');
