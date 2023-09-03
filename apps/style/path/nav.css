@@ -118,6 +118,7 @@ header .brand {
   /* ====================== */
   /* hamburger */
   #nengDonat {
+    z-index: 2;
     display: none;
     width: 50px;
     height: 45px;

@@ -1,0 +1,13 @@
+{
+  "name": "adipratamajaya.github.io",
+  "version": "2.0.1",
+  "description": "adipratamajaya.github.io",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Adi pratama jaya",
+  "license": "ISC"
+}

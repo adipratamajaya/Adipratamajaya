@@ -36,8 +36,9 @@
     }
     /* menu ios jeung android */
     .navigasi_.menu {
+        z-index: 1;
         transition: 0.5s ease;
-        background-color: rgb(248, 240, 201);
+        background-color: rgb(109, 212, 212);
         display: flex;
         flex-direction: column;
         position: fixed;
@@ -60,23 +61,27 @@
         height: 100%;
     }
     /* text */
+    .text__ {
+        padding-top: 15px;
+    }
     .text__ p {
-        font-size: 0.9rem;
+        font-size: 1.6rem;
     }
     .text__ h1 {
         font-size: 2rem;
     }
     .text__ h2 {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
     }
     #txt_change {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
     }
     /* image */
     .profile_pic img {
-        object-position: -173px 0px;
         border-radius: 0;
+        object-position: center;
         width: 100%;
+        height: 360px;
     }
     .profile_pic {
         width: 100%;
