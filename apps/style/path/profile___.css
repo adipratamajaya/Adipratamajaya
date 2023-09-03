@@ -25,10 +25,13 @@
     flex-direction: column;
     gap: 2px;
 }
+.text__ .social_link a p {
+    font-size: 0.9rem;
+}
 /* font */
 .text__ p {
     font-family: Roboto;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font: 300;
 }
 .text__ h1 {
@@ -50,7 +53,7 @@
     padding-top: 20px;
     display: flex;
     gap: 20px;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 .social_link a {
     display: flex;
@@ -60,6 +63,7 @@
     text-decoration: none;
     color: rgb(34, 33, 33);
 }
+
 .social_link a:hover {
     color: rgb(16, 160, 165);
 }
