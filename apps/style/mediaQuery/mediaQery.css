@@ -14,6 +14,13 @@
     .navigasi_ a, .contact{
         font-size: 1rem;
     }
+    /* akhir Navigasi */
+    /* ===================== */
+
+    /* profile */
+    .profile___ {
+        flex-direction: column;
+    }
 }
 
 /* mobile */ 
@@ -46,4 +53,32 @@
 
     /* akhir navigasi
     ===================== */
+
+    /* profile */
+    .profile___ {
+        width: 100%;
+        height: 100%;
+    }
+    /* text */
+    .text__ p {
+        font-size: 0.9rem;
+    }
+    .text__ h1 {
+        font-size: 2rem;
+    }
+    .text__ h2 {
+        font-size: 0.9rem;
+    }
+    #txt_change {
+        font-size: 0.9rem;
+    }
+    /* image */
+    .profile_pic img {
+        object-position: -173px 0px;
+        border-radius: 0;
+        width: 100%;
+    }
+    .profile_pic {
+        width: 100%;
+    }
 }

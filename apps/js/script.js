@@ -17,3 +17,5 @@ mamanRacing.addEventListener("click", () => {
     mamanRacing.classList.remove("open");
 
   })
+
+
