@@ -5,7 +5,9 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+    box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.28);
 }
 
 /* all */
