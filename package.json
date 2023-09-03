@@ -10,4 +10,7 @@
   "keywords": [],
   "author": "Adi pratama jaya",
   "license": "ISC",
- 
+  "dependencies": {
+    "node": "^20.5.1"
+  }
+}
