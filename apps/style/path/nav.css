@@ -1,6 +1,9 @@
 /* main */
 header {
     padding: 20px 50px;
+    position: sticky;
+    top: 0;
+    background-color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
