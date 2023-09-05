@@ -1,6 +1,9 @@
 @import url(path/nav.css);
 @import url(path/profile___.css);
 
+/* grid about */
+@import url(path/about_.css);
+
 /* media Query */
 @import url(mediaQuery/mediaQery.css);
 
@@ -8,4 +11,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
 }
