@@ -25,7 +25,6 @@ A tool that I often use <br>
 
 ![html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-```
 1. Basic structure of a web page
 2. Creation of hyperlinks and links to other web pages
 3. Use of image, video and audio elements
@@ -36,11 +35,11 @@ A tool that I often use <br>
 8. Meta description, keywords and title tags.
 9. Heading tags for text hierarchy.
 10. Alt attribute in img tag for image description.
-```
+
+#
 
 ![css](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
 
-```
 1. Visually organize the appearance of web pages
 2. Separate the display from the HTML content
 3. Apply color, borders, and shadows to HTML elements
@@ -51,11 +50,11 @@ A tool that I often use <br>
 8. Pseudo-class
 9. Define default and hover styles
 10. Apply styles based on the appropriate selector.
-```
+
+#
 
 ![javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-```
 1. Controlling web page behavior. JavaScript allows users to control the behavior of web pages, whether it is creating new elements, displaying or changing data, and responding to user interactions such as clicks or input.
 
 2. Data validation on the client side. JavaScript can be used to validate data entered by users on forms on the client side, thereby reducing the need for communication with the server and improving the user experience.
@@ -63,4 +62,3 @@ A tool that I often use <br>
 3. Manipulate and arrange page elements. JavaScript allows users to change, manipulate, and organize elements on web pages, such as creating animations, adding interactivity, or changing element attribute values.
 
 4. Use of frameworks and libraries. JavaScript has many custom frameworks and libraries that users can use to speed up and simplify the web application development process.
-```
