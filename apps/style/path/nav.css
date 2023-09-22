@@ -1,59 +1,87 @@
 /* main */
 header {
-    padding: 20px 50px;
+    padding: 0 40px;
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: #343434;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.28);
-    -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.28);
-    -moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.28);
+    gap: 10px;
+    box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.342);
 }
 
 /* all */
 header a, .navigasi_ a {
     font-family: Phudu;
     text-decoration: none;
-    color: rgb(36, 36, 36);
+  color: #FCFAF1;
 }
 header .brand {
+    padding: 20px;
     font-size: 1.2rem;
     font-weight: 500;
 }
 .navigasi_ a {
     font-size: 1rem;
     font-weight: 300;
+    letter-spacing: 0.1rem;
 }
 .navigasi_ a:hover {
-    color: rgb(0, 16, 238);
-    font-weight: 400;
+  color: #E6B31E;
 }
 .navigasi_ {
+  position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    height: 100%;
+    padding: 25px;
 } 
+.navigasi_ a::before {
+  content: "";
+  position: absolute;
+  background-color: #E6B31E;
+  height: 5px;
+  border-radius: 10px;
+  width: 10px;
+  bottom: 0;
+  width: 0;
+  transition: 0.3s;
+}
+.navigasi_ a:hover:nth-child(1):before {
+  width: 55px;
+}
+.navigasi_ a:hover:nth-child(2):before {
+  width: 80px;
+}
+.navigasi_ a:hover:nth-child(3):before {
+  width: 70px;
+}
+
 /* btn */
 .contact {
-    font-size: 1rem;
-    cursor: pointer;
-    font-family: Phudu;
-    width: 90px;
-    height: 35px;
-    border: none;
-    background-color: rgb(4, 8, 53);
-    color: rgb(232, 232, 233);
-    border-radius: 5px;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+  font-family: Phudu;
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: #E6B31E;
+  color: #FCFAF1;
+  border-radius: 50px;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.151);
 }
 .contact:hover {
     transition: 0.3s ease-in-out;
-    background-color: rgb(11, 230, 193);
+    background-color: #5c5959;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.151);
+}
+.contact:active {
+  background-color: #FCFAF1;
+  color: #343434;
 }
 /* drakmode */
 .switch {
@@ -96,11 +124,11 @@ header .brand {
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #343434;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #343434;
   }
   
   input:checked + .slider:before {
@@ -142,7 +170,7 @@ header .brand {
     position: absolute;
     height: 9px;
     width: 100%;
-    background: #00ada5;
+    background: #E6B31E;
     border-radius: 9px;
     opacity: 1;
     left: 0;

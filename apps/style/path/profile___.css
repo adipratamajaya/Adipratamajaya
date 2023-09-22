@@ -6,9 +6,34 @@
     justify-content: space-evenly;
     align-items: center;
 }
+.css-selector {
+    background: linear-gradient(270deg, #f9ff00, #f1a200, #ddd014);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 
 /* gambar */
 .profile_pic img {
+    border: 1px solid #343434;
     object-position: -173px 0px;
     border-radius: 100%;
     width: 400px;
@@ -16,7 +41,12 @@
     object-fit: cover;
     box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
+}
+.cricle___ {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-color: #ddd014;
 }
 
 /* txt */
@@ -24,6 +54,9 @@
     display: flex;
     flex-direction: column;
     gap: 2px;
+    padding: 20px;
+    border-left: 3px solid;
+    border-left-style: dashed;
 }
 .text__ .social_link a p {
     font-size: 0.9rem;
@@ -35,9 +68,9 @@
     font: 300;
 }
 .text__ h1 {
-    color: rgb(16, 160, 165);
+    text-transform: uppercase;
     font-family: Roboto;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 .text__ h2 {
