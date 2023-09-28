@@ -1,14 +1,14 @@
 # 👋 Adi pratama jaya 🤓
 
-Hi, I'm **Adi Pratama Jaya**, every day I work in a factory as a production operator, in between times I learn 🚀 about _web development_, and I also often do freelance making websites, the programming language I know is JavaScript, and the Python database I use is **MongoDB and MySQL , the tool I use to create HTML, CSS, Javascript, NPM, and Node js websites.**
+Hi, I'm **Adi Pratama Jaya**, every day I work in a factory as a production operator, in between times I learn 🚀 about _web development_, and I also often do freelance making websites, the programming language I know is **JavaScript, and the Python** database I use is **MongoDB and MySQL , the tool I use to create HTML, CSS, NPM, and Node js websites.**
 
 ![adi pratama jaya](/apps/asset/images/profile/AdiProfile.jpg)
 
 Thank you for visiting my github. 🤓
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adipratamajaya/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.linkedin.com/in/adipratamajaya/)
-[![youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.linkedin.com/in/adipratamajaya/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)]([https://www.linkedin.com/in/adipratamajaya/](https://www.instagram.com/apratama_x_x/))
+[![youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)]([https://www.linkedin.com/in/adipratamajaya/](https://www.youtube.com/c/Adipratamajaya))
 
 ## Development tools
 
