@@ -6,7 +6,6 @@ Hi, I'm **Adi Pratama Jaya**, every day I work in a factory as a production oper
 
 Thank you for visiting my github. 🤓
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adipratamajaya/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)]([https://www.linkedin.com/in/adipratamajaya/](https://www.instagram.com/apratama_x_x/))
 [![youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)]([https://www.linkedin.com/in/adipratamajaya/](https://www.youtube.com/c/Adipratamajaya))
 
