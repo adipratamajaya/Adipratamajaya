@@ -7,7 +7,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    background-color: #f4f7fa;
+    background-color: #017ffd;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,7 @@
   button.submit-btn {
     width: 100%;
     padding: 12px;
-    background-color: #4CAF50;
+    background-color: #1f201f;
     color: white;
     font-size: 16px;
     border: none;
