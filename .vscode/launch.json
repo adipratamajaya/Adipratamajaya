@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "mongodb://localhost:27017/web",
+            "request": "launch",
+            "url": "mongodb://localhost:27017/web"
+        }
+    ]
+}

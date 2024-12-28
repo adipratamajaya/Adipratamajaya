@@ -1,7 +1,7 @@
 {
   "name": "adipratamajaya",
   "version": "1.0.0",
-  "description": "Hi, I'm **Adi Pratama Jaya**, every day I work in a factory as a production operator, in between times I learn 🚀 about _web development_, and I also often do freelance making websites, the programming language I know is **JavaScript, and the Python** database I use is **MongoDB and MySQL , the tool I use to create HTML, CSS, NPM, and Node js websites.**",
+  "description": "Hi, I'm Adi Pratama Jaya, every day I work in a factory as a production operator, in between times I learn about web development, and I also often do freelance making websites. The programming languages I know are JavaScript and Python. The databases I use are MongoDB and MySQL. The tools I use to create websites are HTML, CSS, NPM, and Node.js.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
