@@ -1,0 +1,28 @@
+{
+  "name": "adipratamajaya",
+  "version": "1.0.0",
+  "description": "Hi, I'm **Adi Pratama Jaya**, every day I work in a factory as a production operator, in between times I learn 🚀 about _web development_, and I also often do freelance making websites, the programming language I know is **JavaScript, and the Python** database I use is **MongoDB and MySQL , the tool I use to create HTML, CSS, NPM, and Node js websites.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adipratamajaya/Adipratamajaya.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adipratamajaya/Adipratamajaya/issues"
+  },
+  "homepage": "https://github.com/adipratamajaya/Adipratamajaya#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.2",
+    "nodemon": "^3.1.9"
+  }
+}
